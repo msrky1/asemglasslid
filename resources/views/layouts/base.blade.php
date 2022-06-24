@@ -99,9 +99,9 @@
               <script>
                 document.write(new Date().getFullYear());
               </script>
-              All rights reserved | This template is made with
+              Tüm Hakları Saklıdır. 
               <i class="fa fa-heart" aria-hidden="true"></i> by
-              <a href="/" target="_blank">Colorlib</a>
+              <a href="/" target="_blank">Mahmut Sarıkaya</a>
             </span>
           </div>
         </div>

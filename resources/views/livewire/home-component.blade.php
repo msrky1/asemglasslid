@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="home-content__scroll">
-        <a href="#about" class="scroll-link smoothscroll"> Scroll </a>
+        <a href="#about" class="scroll-link smoothscroll"> {{__('home.aşağı')}} </a>
       </div>
     </div>
     <ul class="home-social">
@@ -69,68 +69,48 @@
   <section id="about" class="s-about target-section">
     <div class="row section-header" data-aos="fade-up">
       <div class="col-full">
-        <h3 data-num="01" class="subhead">Who We Are</h3>
+        <h3 data-num="01" class="subhead">{{__('home.hakkımızda')}}</h3>
         <h1 class="display-1">
-          Stellar is a branding agency based in Somewhere. We design
-          thoughtful digital experiences and beautiful brand aesthetics.
+          {{__('home.hakkımızda1')}}
         </h1>
         <p class="lead">
-          Quia iusto totam facilis ut atque quidem quis maiores iure. Facilis
-          mollitia enim illo sed et totam commodi. Velit a recusandae sequi
-          consequatur est dolorum. Eaque accusantium praesentium ut omnis.
-          Laboriosam reprehenderit commodi assumenda.
+          {{__('home.hakkımızda2')}}
         </p>
       </div>
     </div>
     <div class="row about-process block-1-2 block-tab-full">
       <div class="col-block item-process" data-aos="fade-up">
         <div class="item-process__header item-process__header--planning">
-          <h3>Planning</h3>
+          <h3>{{__('home.hakkımızda3')}}</h3>
         </div>
         <p>
-          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-          posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam
-          vel, ullamcorper sit amet ligula. Praesent sapien massa, convallis a
-          pellentesque nec, egestas non nisi. Nulla porttitor accumsan
-          tincidunt. Cras ultricies ligula sed magna dictum porta.
+          {{__('home.hakkımızda4')}}
         </p>
       </div>
       <div class="col-block item-process" data-aos="fade-up">
         <div class="item-process__header item-process__header--branding">
-          <h3>Branding</h3>
+          <h3>{{__('home.hakkımızda5')}}</h3>
         </div>
         <p>
-          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-          posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam
-          vel, ullamcorper sit amet ligula. Praesent sapien massa, convallis a
-          pellentesque nec, egestas non nisi. Nulla porttitor accumsan
-          tincidunt. Cras ultricies ligula sed magna dictum porta.
+          {{__('home.hakkımızda6')}}
         </p>
       </div>
       <div class="col-block item-process" data-aos="fade-up">
         <div
           class="item-process__header item-process__header--implementation"
         >
-          <h3>Implementation</h3>
+          <h3>{{__('home.hakkımızda7')}}</h3>
         </div>
         <p>
-          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-          posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam
-          vel, ullamcorper sit amet ligula. Praesent sapien massa, convallis a
-          pellentesque nec, egestas non nisi. Nulla porttitor accumsan
-          tincidunt. Cras ultricies ligula sed magna dictum porta.
+          {{__('home.hakkımızda8')}}
         </p>
       </div>
       <div class="col-block item-process" data-aos="fade-up">
         <div class="item-process__header item-process__header--documentation">
-          <h3>Documentation</h3>
+          <h3>{{__('home.hakkımızda9')}}</h3>
         </div>
         <p>
-          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-          posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam
-          vel, ullamcorper sit amet ligula. Praesent sapien massa, convallis a
-          pellentesque nec, egestas non nisi. Nulla porttitor accumsan
-          tincidunt. Cras ultricies ligula sed magna dictum porta.
+          {{__('home.hakkımızda10')}}
         </p>
       </div>
     </div>
@@ -139,71 +119,50 @@
   <section id="services" class="s-services target-section">
     <div class="row section-header" data-aos="fade-up">
       <div class="col-full">
-        <h3 data-num="02" class="subhead">What We Do</h3>
+        <h3 data-num="02" class="subhead">{{__('home.faaliyet')}}</h3>
         <h1 class="display-1 display-1--light">
-          Our services are tailored to make your business grow and stand out.
+          {{__('home.faaliyet1')}}
         </h1>
         <p class="lead lead-light">
-          Quia iusto totam facilis ut atque quidem quis maiores iure. Facilis
-          mollitia enim illo sed et totam commodi. Velit a recusandae sequi
-          consequatur est dolorum. Eaque accusantium praesentium ut omnis.
-          Laboriosam reprehenderit commodi assumenda.
+          {{__('home.faaliyet2')}}
         </p>
       </div>
     </div>
     <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
       <div class="col-block item-service" data-aos="fade-up">
-        <h4>Brand Identity</h4>
+        <h4>  {{__('home.faaliyet3')}}</h4>
         <p>
-          Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur
-          sit vel illum vel et a delectus. Vel sequi vitae voluptatem
-          perspiciatis eligendi. Voluptatibus optio natus asperiores est
-          commodi amet quia architecto. Dolores necessitatibus et.
+          {{__('home.faaliyet4')}}
         </p>
       </div>
       <div class="col-block item-service" data-aos="fade-up">
-        <h4>Illustration</h4>
+        <h4>  {{__('home.faaliyet5')}}</h4>
         <p>
-          Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur
-          sit vel illum vel et a delectus. Vel sequi vitae voluptatem
-          perspiciatis eligendi. Voluptatibus optio natus asperiores est
-          commodi amet quia architecto. Dolores necessitatibus et.
+          {{__('home.faaliyet6')}}
         </p>
       </div>
       <div class="col-block item-service" data-aos="fade-up">
-        <h4>Web Design</h4>
+        <h4>  {{__('home.faaliyet7')}}</h4>
         <p>
-          Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur
-          sit vel illum vel et a delectus. Vel sequi vitae voluptatem
-          perspiciatis eligendi. Voluptatibus optio natus asperiores est
-          commodi amet quia architecto. Dolores necessitatibus et.
+          {{__('home.faaliyet8')}}
         </p>
       </div>
       <div class="col-block item-service" data-aos="fade-up">
-        <h4>Product Strategy</h4>
+        <h4>  {{__('home.faaliyet9')}}</h4>
         <p>
-          Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur
-          sit vel illum vel et a delectus. Vel sequi vitae voluptatem
-          perspiciatis eligendi. Voluptatibus optio natus asperiores est
-          commodi amet quia architecto. Dolores necessitatibus et.
+          {{__('home.faaliyet10')}}
         </p>
       </div>
       <div class="col-block item-service" data-aos="fade-up">
-        <h4>UI/UX Design</h4>
+        <h4>  {{__('home.faaliyet11')}}</h4>
         <p>
-          Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur
-          sit vel illum vel et a delectus. Vel sequi vitae voluptatem
-          perspiciatis eligendi. Voluptatibus optio natus asperiores est
-          commodi amet quia architecto. Dolores necessitatibus et.
+          {{__('home.faaliyet12')}}
         </p>
       </div>
       <div class="col-block item-service" data-aos="fade-up">
-        <h4>Mobile Design</h4>
+        <h4>  {{__('home.faaliyet14')}}</h4>
         <p>
-          Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur
-          sit vel illum vel et a delectus. Vel sequi vitae voluptatem
-          perspiciatis eligendi. Voluptatibus optio natus asperiores est
-          commodi amet quia architecto. Dolores necessitatibus et.
+          {{__('home.faaliyet13')}}
         </p>
       </div>
     </div>
@@ -212,10 +171,9 @@
   <section id="works" class="s-works target-section">
     <div class="row section-header" data-aos="fade-up">
       <div class="col-full">
-        <h3 data-num="03" class="subhead">Recent Works</h3>
+        <h3 data-num="03" class="subhead">  {{__('home.projeler')}}</h3>
         <h1 class="display-1">
-          Here are some of our favorite projects we have done lately. Feel
-          free to check them out.
+          {{__('home.projeler1')}}
         </h1>
       </div>
     </div>
@@ -239,20 +197,19 @@
           </a>
         </div>
         <div class="item-folio__text">
-          <h3 class="item-folio__title">Lamp</h3>
-          <p class="item-folio__cat">Web Design</p>
+          <h3 class="item-folio__title">{{__('home.projeler3')}}</h3>
+          <p class="item-folio__cat">{{__('home.projeler4')}}</p>
         </div>
         <a
           href="../../index.htm"
           class="item-folio__project-link"
           title="Project link"
         >
-          Project Link
+        {{__('home.projeler')}}
         </a>
         <div class="item-folio__caption">
           <p>
-            Vero molestiae sed aut natus excepturi. Et tempora numquam.
-            Temporibus iusto quo.Unde dolorem corrupti neque nisi.
+            {{__('home.projeler5')}}
           </p>
         </div>
       </div>
@@ -275,20 +232,19 @@
           </a>
         </div>
         <div class="item-folio__text">
-          <h3 class="item-folio__title">Fuji</h3>
-          <p class="item-folio__cat">Branding</p>
+          <h3 class="item-folio__title">{{__('home.projeler6')}}</h3>
+          <p class="item-folio__cat">{{__('home.projeler7')}}</p>
         </div>
         <a
           href="../../index.htm"
           class="item-folio__project-link"
           title="Project link"
         >
-          Project Link
+        {{__('home.projeler')}}
         </a>
         <div class="item-folio__caption">
           <p>
-            Vero molestiae sed aut natus excepturi. Et tempora numquam.
-            Temporibus iusto quo.Unde dolorem corrupti neque nisi.
+            {{__('home.projeler8')}}
           </p>
         </div>
       </div>
@@ -311,20 +267,19 @@
           </a>
         </div>
         <div class="item-folio__text">
-          <h3 class="item-folio__title">Woodcraft</h3>
-          <p class="item-folio__cat">Web Design</p>
+          <h3 class="item-folio__title">{{__('home.projeler9')}}</h3>
+          <p class="item-folio__cat">{{__('home.projeler10')}}</p>
         </div>
         <a
           href="../../index.htm"
           class="item-folio__project-link"
           title="Project link"
         >
-          Project Link
+        {{__('home.projeler11')}}
         </a>
         <div class="item-folio__caption">
           <p>
-            Vero molestiae sed aut natus excepturi. Et tempora numquam.
-            Temporibus iusto quo.Unde dolorem corrupti neque nisi.
+            {{__('home.projeler12')}}
           </p>
         </div>
       </div>
@@ -347,172 +302,28 @@
           </a>
         </div>
         <div class="item-folio__text">
-          <h3 class="item-folio__title">Droplet</h3>
-          <p class="item-folio__cat">Web Development</p>
+          <h3 class="item-folio__title">{{__('home.projeler13')}}</h3>
+          <p class="item-folio__cat">{{__('home.projeler14')}}</p>
         </div>
         <a
           href="../../index.htm"
           class="item-folio__project-link"
           title="Project link"
         >
-          Project Link
+        {{__('home.projeler')}}
         </a>
         <div class="item-folio__caption">
           <p>
-            Vero molestiae sed aut natus excepturi. Et tempora numquam.
-            Temporibus iusto quo.Unde dolorem corrupti neque nisi.
+            {{__('home.projeler15')}}
           </p>
         </div>
       </div>
-      <div class="col-block item-folio" data-aos="fade-up">
-        <div class="item-folio__thumb">
-          <a
-            href="{{asset('assets')}}/images/portfolio/gallery/g-shutterbug.jpg"
-            class="thumb-link"
-            title="Shutterbug"
-            data-size="1050x700"
-          >
-            <img
-              src="{{asset('assets')}}/images/portfolio/xshutterbug.jpg.pagespeed.ic.aabj40_-7r.jpg"
-              srcset="
-                {{asset('assets')}}/images/portfolio/xshutterbug.jpg.pagespeed.ic.aabj40_-7r.jpg 1x,
-                {{asset('assets')}}/images/portfolio/shutterbug@2x.jpg                           2x
-              "
-              alt=""
-            />
-          </a>
-        </div>
-        <div class="item-folio__text">
-          <h3 class="item-folio__title">Shutterbug</h3>
-          <p class="item-folio__cat">Web Design</p>
-        </div>
-        <a
-          href="../../index.htm"
-          class="item-folio__project-link"
-          title="Project link"
-        >
-          Project Link
-        </a>
-        <div class="item-folio__caption">
-          <p>
-            Vero molestiae sed aut natus excepturi. Et tempora numquam.
-            Temporibus iusto quo.Unde dolorem corrupti neque nisi.
-          </p>
-        </div>
-      </div>
-      <div class="col-block item-folio" data-aos="fade-up">
-        <div class="item-folio__thumb">
-          <a
-            href="{{asset('assets')}}/images/portfolio/gallery/g-minimalismo.jpg"
-            class="thumb-link"
-            title="Minimalismo"
-            data-size="1050x700"
-          >
-            <img
-              src="{{asset('assets')}}/images/portfolio/minimalismo.jpg"
-              srcset="
-                {{asset('assets')}}/images/portfolio/minimalismo.jpg    1x,
-                {{asset('assets')}}/images/portfolio/minimalismo@2x.jpg 2x
-              "
-              alt=""
-            />
-          </a>
-        </div>
-        <div class="item-folio__text">
-          <h3 class="item-folio__title">Minimalismo</h3>
-          <p class="item-folio__cat">UX Design</p>
-        </div>
-        <a
-          href="../../index.htm"
-          class="item-folio__project-link"
-          title="Project link"
-        >
-          Project Link
-        </a>
-        <div class="item-folio__caption">
-          <p>
-            Vero molestiae sed aut natus excepturi. Et tempora numquam.
-            Temporibus iusto quo.Unde dolorem corrupti neque nisi.
-          </p>
-        </div>
-      </div>
-      <div class="col-block item-folio" data-aos="fade-up">
-        <div class="item-folio__thumb">
-          <a
-            href="{{asset('assets')}}/images/portfolio/gallery/g-film.jpg"
-            class="thumb-link"
-            title="Film"
-            data-size="1050x700"
-          >
-            <img
-              src="{{asset('assets')}}/images/portfolio/film.jpg"
-              srcset="
-                {{asset('assets')}}/images/portfolio/film.jpg    1x,
-                {{asset('assets')}}/images/portfolio/film@2x.jpg 2x
-              "
-              alt=""
-            />
-          </a>
-        </div>
-        <div class="item-folio__text">
-          <h3 class="item-folio__title">Film</h3>
-          <p class="item-folio__cat">Branding</p>
-        </div>
-        <a
-          href="../../index.htm"
-          class="item-folio__project-link"
-          title="Project link"
-        >
-          Project Link
-        </a>
-        <div class="item-folio__caption">
-          <p>
-            Vero molestiae sed aut natus excepturi. Et tempora numquam.
-            Temporibus iusto quo.Unde dolorem corrupti neque nisi.
-          </p>
-        </div>
-      </div>
-      <div class="col-block item-folio" data-aos="fade-up">
-        <div class="item-folio__thumb">
-          <a
-            href="{{asset('assets')}}/images/portfolio/gallery/g-skaterboy.jpg"
-            class="thumb-link"
-            title="Skaterboy"
-            data-size="1050x700"
-          >
-            <img
-              src="{{asset('assets')}}/images/portfolio/xskaterboy.jpg.pagespeed.ic.aWmR4wivG-.jpg"
-              srcset="
-                {{asset('assets')}}/images/portfolio/xskaterboy.jpg.pagespeed.ic.aWmR4wivG-.jpg 1x,
-                {{asset('assets')}}/images/portfolio/skaterboy@2x.jpg                           2x
-              "
-              alt=""
-            />
-          </a>
-        </div>
-        <div class="item-folio__text">
-          <h3 class="item-folio__title">Skaterboy</h3>
-          <p class="item-folio__cat">Web Design</p>
-        </div>
-        <a
-          href="../../index.htm"
-          class="item-folio__project-link"
-          title="Project link"
-        >
-          Project Link
-        </a>
-        <div class="item-folio__caption">
-          <p>
-            Vero molestiae sed aut natus excepturi. Et tempora numquam.
-            Temporibus iusto quo.Unde dolorem corrupti neque nisi.
-          </p>
-        </div>
-      </div>
+     
     </div>
     <div class="testimonials-wrap" data-aos="fade-up">
       <div class="row">
         <div class="col-full testimonials-header">
-          <h2 class="h1">What Clients Are Saying...</h2>
+          <h2 class="h1">{{__('home.musteriler')}}</h2>
         </div>
       </div>
       <div class="row testimonials">
@@ -520,10 +331,7 @@
           <div class="testimonials__slide">
             <span class="testimonials__icon"></span>
             <p>
-              Qui ipsam temporibus quisquam velMaiores eos cumque distinctio
-              nam accusantium ipsum. Laudantium quia consequatur molestias
-              delectus culpa facere hic dolores aperiam. Accusantium
-              praesentium corpori.
+              {{__('home.musteriler1')}}
             </p>
             <div class="testimonials__author">
               <img
@@ -531,17 +339,14 @@
                 alt="Author image"
                 class="testimonials__avatar"
               />
-              <span class="testimonials__name">Tim Cook</span>
-              <span class="testimonials__position">CEO, Apple</span>
+              <span class="testimonials__name">{{__('home.musterilerad1')}}</span>
+              <span class="testimonials__position">{{__('home.musterilerad2')}}</span>
             </div>
           </div>
           <div class="testimonials__slide">
             <span class="testimonials__icon"></span>
             <p>
-              Excepturi nam cupiditate culpa doloremque deleniti repellat.
-              Veniam quos repellat voluptas animi adipisci. Nisi eaque
-              consequatur. Quasi voluptas eius distinctio. Atque eos maxime.
-              Qui ipsam temporibus quisquam vel.
+              {{__('home.musterilerad3')}}
             </p>
             <div class="testimonials__author">
               <img
@@ -549,17 +354,14 @@
                 alt="Author image"
                 class="testimonials__avatar"
               />
-              <span class="testimonials__name">Sundar Pichai</span>
-              <span class="testimonials__position">CEO, Google</span>
+              <span class="testimonials__name">{{__('home.musterilerad4')}}</span>
+              <span class="testimonials__position">{{__('home.musterilerad5')}}</span>
             </div>
           </div>
           <div class="testimonials__slide">
             <span class="testimonials__icon"></span>
             <p>
-              Repellat dignissimos libero. Qui sed at corrupti expedita
-              voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.
-              Autem eaque officia cum exercitationem sunt voluptatum
-              accusamus. Quasi voluptas eius distinctio.
+              {{__('home.musterilerad6')}}
             </p>
             <div class="testimonials__author">
               <img
@@ -567,8 +369,8 @@
                 alt="Author image"
                 class="testimonials__avatar"
               />
-              <span class="testimonials__name">Satya Nadella</span>
-              <span class="testimonials__position">CEO, Microsoft</span>
+              <span class="testimonials__name">{{__('home.musterilerad7')}}</span>
+              <span class="testimonials__position">{{__('home.musterilerad8')}}</span>
             </div>
           </div>
         </div>
@@ -579,9 +381,9 @@
   <section id="clients" class="s-clients target-section">
     <div class="row section-header" data-aos="fade-up">
       <div class="col-full">
-        <h3 data-num="04" class="subhead">Selected Clients</h3>
+        <h3 data-num="04" class="subhead">{{__('home.çalıştığımız')}}</h3>
         <h1 class="display-1 display-1--light">
-          Here are some of the brands we have had the priviledge to work with.
+          {{__('home.çalıştığımız2')}}
         </h1>
       </div>
     </div>
@@ -639,19 +441,19 @@
     >
       <div class="col-block item-stats">
         <div class="item-stats__count">213</div>
-        <h5>Projects Completed</h5>
+        <h5>{{__('home.mutlu')}}</h5>
       </div>
       <div class="col-block item-stats">
         <div class="item-stats__count">179</div>
-        <h5>Happy Clients</h5>
+        <h5>{{__('home.mutlu2')}}</h5>
       </div>
       <div class="col-block item-stats">
         <div class="item-stats__count">35</div>
-        <h5>Awards Received</h5>
+        <h5>{{__('home.mutlu3')}}</h5>
       </div>
       <div class="col-block item-stats">
         <div class="item-stats__count">2319</div>
-        <h5>Cups of Coffee</h5>
+        <h5>{{__('home.mutlu4')}}</h5>
       </div>
     </div>
   </section>
@@ -659,15 +461,14 @@
   <section id="contact" class="s-contact target-section">
     <div class="row section-header" data-aos="fade-up">
       <div class="col-full">
-        <h3 data-num="05" class="subhead">Get In Touch</h3>
+        <h3 data-num="05" class="subhead">{{__('home.bizeulaşın')}}</h3>
         <h1 class="display-1 display-1--light">
-          Have an idea or an epic project in mind? Talk to us. Let’s work
-          together and make something great. Drop us a line at
+          {{__('home.bizeulaşın2')}}
           <a href="/cdn-cgi/l/email-protection#d0f3e0"
             ><span
               class="__cf_email__"
               data-cfemail="2c44494040436c5f584940404d5e024f4341"
-              >[email&#160;protected]</span
+              >{{__('home.email')}}</span
             ></a
           >
         </h1>
@@ -678,18 +479,16 @@
         class="col-five md-seven tab-full contact-address"
         data-aos="fade-up"
       >
-        <h4>Where to Find Us</h4>
+        <h4>{{__('home.hakkımızdakısa')}}</h4>
         <p>
-          1600 Amphitheatre Parkway <br />
-          Mountain View, California <br />
-          94043 US
+          {{__('home.hakkımızdakısa')}}
         </p>
       </div>
       <div
         class="col-three md-five tab-full contact-social"
         data-aos="fade-up"
       >
-        <h4>Follow Us</h4>
+        <h4>{{__('home.takipedin')}}</h4>
         <ul class="contact-list">
           <li><a href="#0">Facebook</a></li>
           <li><a href="#0">Twitter</a></li>
@@ -704,23 +503,23 @@
               ><span
                 class="__cf_email__"
                 data-cfemail="4d24232b220d3e392821212c3f632e2220"
-                >[email&#160;protected]</span
+                >email</span
               ></a
             >
           </li>
-          <li><a href="tel:197-543-2345">+197 543 2345</a></li>
-          <li><a href="tel:197-123-9876">+197 123 9876</a></li>
+          <li><a href="tel:197-543-2345">0534 491 48 01 </a></li>
+          <li><a href="tel:197-123-9876">0534 491 48 01</a></li>
         </ul>
       </div>
     </div>
     <div class="row contact-bottom">
       <div class="col-five tab-full contact-button" data-aos="fade-up">
         <a href="#about" class="smoothscroll btn btn-animatedbg">
-          Let's Talk
+          {{__('home.dahafazla')}}
         </a>
       </div>
       <div class="col-six tab-full contact-subscribe" data-aos="fade-up">
-        <h4>Subscribe</h4>
+        <h4>{{__('home.gonder')}}</h4>
         <form id="mc-form" class="group mc-form" novalidate="">
           <input
             type="email"
@@ -728,10 +527,10 @@
             name="EMAIL"
             class="email"
             id="mc-email"
-            placeholder="Email Address"
+            placeholder="Email"
             required=""
           />
-          <input type="submit" name="subscribe" value="Subscribe" />
+          <input type="submit" name="subscribe" value="{{__('home.gonder')}}" />
           <label for="mc-email" class="subscribe-message"></label>
         </form>
       </div>
