@@ -13,12 +13,12 @@
       <div class="row home-content__main">
         <h1>
           <br />
-          solutions to turn your <br />
-          ideas into digital reality
+      ASEM <br />
+      GLASSLİD
         </h1>
         <div class="home-content__button">
           <a href="#about" class="smoothscroll btn btn-animatedbg">
-            More About Us
+            {{__('home.hakkımızda')}} 
           </a>
         </div>
         <div class="home-content__video">
@@ -39,30 +39,19 @@
           ><span>Facebook</span></a
         >
       </li>
-      <li>
+      {{-- <li>
         <a href="#0"
           ><i class="fab fa-twitter" aria-hidden="true"></i
           ><span>Twiiter</span></a
         >
-      </li>
+      </li> --}}
       <li>
         <a href="#0"
           ><i class="fab fa-instagram" aria-hidden="true"></i
           ><span>Instagram</span></a
         >
       </li>
-      <li>
-        <a href="#0"
-          ><i class="fab fa-behance" aria-hidden="true"></i
-          ><span>Behance</span></a
-        >
-      </li>
-      <li>
-        <a href="#0"
-          ><i class="fab fa-dribbble" aria-hidden="true"></i
-          ><span>Dribbble</span></a
-        >
-      </li>
+     
     </ul>
   </section>
 
@@ -70,9 +59,9 @@
     <div class="row section-header" data-aos="fade-up">
       <div class="col-full">
         <h3 data-num="01" class="subhead">{{__('home.hakkımızda')}}</h3>
-        <h1 class="display-1">
-          {{__('home.hakkımızda1')}}
-        </h1>
+        <p>
+           {{__('home.hakkımızda1')}}
+        </p>
         <p class="lead">
           {{__('home.hakkımızda2')}}
         </p>
@@ -120,12 +109,12 @@
     <div class="row section-header" data-aos="fade-up">
       <div class="col-full">
         <h3 data-num="02" class="subhead">{{__('home.faaliyet')}}</h3>
-        <h1 class="display-1 display-1--light">
+        {{-- <h1 class="display-1 display-1--light">
           {{__('home.faaliyet1')}}
         </h1>
         <p class="lead lead-light">
           {{__('home.faaliyet2')}}
-        </p>
+        </p> --}}
       </div>
     </div>
     <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
@@ -165,6 +154,12 @@
           {{__('home.faaliyet13')}}
         </p>
       </div>
+      <div class="col-block item-service" data-aos="fade-up">
+        <h4>  {{__('home.faaliyet15')}}</h4>
+        {{-- <p>
+          {{__('home.faaliyet15')}}
+        </p> --}}
+      </div>
     </div>
   </section>
 
@@ -173,35 +168,103 @@
       <div class="col-full">
         <h3 data-num="03" class="subhead">  {{__('home.projeler')}}</h3>
         <h1 class="display-1">
-          {{__('home.projeler1')}}
+          {{__('home.projeler')}}
         </h1>
       </div>
     </div>
     <div class="portfolio block-1-4 block-m-1-3 block-tab-1-2 collapse">
+      
       <div class="col-block item-folio" data-aos="fade-up">
         <div class="item-folio__thumb">
           <a
-            href="{{asset('assets')}}/images/portfolio/gallery/g-lamp.jpg"
+            href="{{asset('assets')}}/images/product/ctype1.jpg"
             class="thumb-link"
-            title="Lamp"
+            title="{{__('home.projeler1')}}"
             data-size="1050x700"
           >
             <img
-              src="{{asset('assets')}}/images/portfolio/xlamp.jpg.pagespeed.ic.-b8dPmIuBO.jpg"
+              src="{{asset('assets')}}/images/product/ctype1.jpg"
               srcset="
-                {{asset('assets')}}/images/portfolio/xlamp.jpg.pagespeed.ic.-b8dPmIuBO.jpg 1x,
-                402x.jpg.pagespeed.ic.UW85j-7o7M.jpg
+              {{asset('assets')}}/images/product/ctype1.jpg    1x,
+              {{asset('assets')}}/images/product/ctype1.jpg 2x
               "
               alt=""
             />
           </a>
         </div>
+        <div class="item-folio__text">
+          <h3 class="item-folio__title">{{__('home.projeler1')}}</h3>
+        </div>
+        <a
+          href="/"
+          class="item-folio__project-link"
+          title="Project link"
+        >
+        {{__('home.projeler')}}
+        </a>
+        <div class="item-folio__caption">
+          <p>
+            {{__('home.projeler1')}}
+          </p>
+        </div>
+      </div>
+      <div class="col-block item-folio" data-aos="fade-up">
+        <div class="item-folio__thumb">
+          <a
+            href="{{asset('assets')}}/images/product/ctype12.jpg"
+            class="thumb-link"
+            title="  {{__('home.projeler2')}}"
+            data-size="1050x700"
+          >
+            <img
+              src="{{asset('assets')}}/images/product/ctype12.jpg"
+              srcset="
+              {{asset('assets')}}/images/product/ctype12.jpg 1x,
+              {{asset('assets')}}/images/product/ctype12.jpg                           2x
+              "
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="item-folio__text">
+          <h3 class="item-folio__title">{{__('home.projeler2')}}</h3>
+        </div>
+        <a
+          href="/"
+          class="item-folio__project-link"
+          title="Project link"
+        >
+        {{__('home.projeler')}}
+        </a>
+        <div class="item-folio__caption">
+          <p>
+            {{__('home.projeler2')}}
+          </p>
+        </div>
+      </div>
+      <div class="col-block item-folio" data-aos="fade-up">
+        <div class="item-folio__thumb">
+          <a
+            href="{{asset('assets')}}/images/product/gtype.jpg"
+            class="thumb-link"
+            title="{{__('home.projeler')}}"
+            data-size="1050x700"
+          >
+            <img
+              src="{{asset('assets')}}/images/product/gtype.jpg"
+              srcset="
+              {{asset('assets')}}/images/product/gtype.jpg    1x,
+              {{asset('assets')}}/images/product/gtype.jpg 2x
+              "
+              alt=""
+            />
+          </a>
+        </div>  
         <div class="item-folio__text">
           <h3 class="item-folio__title">{{__('home.projeler3')}}</h3>
-          <p class="item-folio__cat">{{__('home.projeler4')}}</p>
         </div>
         <a
-          href="../../index.htm"
+          href="/"
           class="item-folio__project-link"
           title="Project link"
         >
@@ -209,112 +272,7 @@
         </a>
         <div class="item-folio__caption">
           <p>
-            {{__('home.projeler5')}}
-          </p>
-        </div>
-      </div>
-      <div class="col-block item-folio" data-aos="fade-up">
-        <div class="item-folio__thumb">
-          <a
-            href="{{asset('assets')}}/images/portfolio/gallery/g-fuji.jpg"
-            class="thumb-link"
-            title="Fuji"
-            data-size="1050x700"
-          >
-            <img
-              src="{{asset('assets')}}/images/portfolio/fuji.jpg"
-              srcset="
-                {{asset('assets')}}/images/portfolio/fuji.jpg    1x,
-                {{asset('assets')}}/images/portfolio/fuji@2x.jpg 2x
-              "
-              alt=""
-            />
-          </a>
-        </div>
-        <div class="item-folio__text">
-          <h3 class="item-folio__title">{{__('home.projeler6')}}</h3>
-          <p class="item-folio__cat">{{__('home.projeler7')}}</p>
-        </div>
-        <a
-          href="../../index.htm"
-          class="item-folio__project-link"
-          title="Project link"
-        >
-        {{__('home.projeler')}}
-        </a>
-        <div class="item-folio__caption">
-          <p>
-            {{__('home.projeler8')}}
-          </p>
-        </div>
-      </div>
-      <div class="col-block item-folio" data-aos="fade-up">
-        <div class="item-folio__thumb">
-          <a
-            href="{{asset('assets')}}/images/portfolio/gallery/g-woodcraft.jpg"
-            class="thumb-link"
-            title="Woodcraft"
-            data-size="1050x700"
-          >
-            <img
-              src="{{asset('assets')}}/images/portfolio/xwoodcraft.jpg.pagespeed.ic.8O38VxIxLY.jpg"
-              srcset="
-                {{asset('assets')}}/images/portfolio/xwoodcraft.jpg.pagespeed.ic.8O38VxIxLY.jpg 1x,
-                {{asset('assets')}}/images/portfolio/woodcraft@2x.jpg                           2x
-              "
-              alt=""
-            />
-          </a>
-        </div>
-        <div class="item-folio__text">
-          <h3 class="item-folio__title">{{__('home.projeler9')}}</h3>
-          <p class="item-folio__cat">{{__('home.projeler10')}}</p>
-        </div>
-        <a
-          href="../../index.htm"
-          class="item-folio__project-link"
-          title="Project link"
-        >
-        {{__('home.projeler11')}}
-        </a>
-        <div class="item-folio__caption">
-          <p>
-            {{__('home.projeler12')}}
-          </p>
-        </div>
-      </div>
-      <div class="col-block item-folio" data-aos="fade-up">
-        <div class="item-folio__thumb">
-          <a
-            href="{{asset('assets')}}/images/portfolio/gallery/g-droplet.jpg"
-            class="thumb-link"
-            title="Droplet"
-            data-size="1050x700"
-          >
-            <img
-              src="{{asset('assets')}}/images/portfolio/droplet.jpg"
-              srcset="
-                {{asset('assets')}}/images/portfolio/droplet.jpg    1x,
-                {{asset('assets')}}/images/portfolio/droplet@2x.jpg 2x
-              "
-              alt=""
-            />
-          </a>
-        </div>
-        <div class="item-folio__text">
-          <h3 class="item-folio__title">{{__('home.projeler13')}}</h3>
-          <p class="item-folio__cat">{{__('home.projeler14')}}</p>
-        </div>
-        <a
-          href="../../index.htm"
-          class="item-folio__project-link"
-          title="Project link"
-        >
-        {{__('home.projeler')}}
-        </a>
-        <div class="item-folio__caption">
-          <p>
-            {{__('home.projeler15')}}
+            {{__('home.projeler3')}}
           </p>
         </div>
       </div>
@@ -479,7 +437,7 @@
         class="col-five md-seven tab-full contact-address"
         data-aos="fade-up"
       >
-        <h4>{{__('home.hakkımızdakısa')}}</h4>
+        <h4>{{__('home.hakkımızda')}}</h4>
         <p>
           {{__('home.hakkımızdakısa')}}
         </p>
@@ -496,14 +454,14 @@
         </ul>
       </div>
       <div class="col-four md-six tab-full contact-number" data-aos="fade-up">
-        <h4>Contact Us</h4>
+        <h4>{{__('home.iletişim')}}</h4>
         <ul class="contact-list">
           <li>
             <a href="/cdn-cgi/l/email-protection#062536"
               ><span
                 class="__cf_email__"
                 data-cfemail="4d24232b220d3e392821212c3f632e2220"
-                >email</span
+                >Email</span
               ></a
             >
           </li>

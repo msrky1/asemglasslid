@@ -65,12 +65,22 @@
                 >
               </li>
               <li>
-                <a class="smoothscroll" href="#works" title="works">{{__('home.projeler')}}</a>
+                <a class="smoothscroll" href="#works" title="works"
+                  >{{__('home.ürünler')}}</a
+                >
               </li>
+           
               <li>
                 <a class="smoothscroll" href="#contact" title="contact"
                   >{{__('home.iletişim')}}</a
                 >
+              </li>
+              <li>
+                <select style="color: white; backgorund-color:black;">
+                  <option style="color: red; background-color:black" selected>Türkçe</option>
+                  <option style="color: red; background-color:black" value="1">İngilizce</option>
+                 
+                </select>
               </li>
             </ul>
           </nav>
