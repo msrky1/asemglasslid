@@ -4,7 +4,7 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use App\Http\Livewire\HomeComponent;
-
+use App\Http\Controllers\AsemController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -36,4 +36,18 @@ use App\Http\Livewire\HomeComponent;
 // });
 
 
-Route::get('/' , HomeComponent::class);
+// Route::get('/' , HomeComponent::class);
+
+Route::redirect('/' , '/tr');
+
+//  Route::get('/', function () {
+
+//   return view('welcome');
+//  });
+
+Route::group(['prefix' => '{language}'  ], function(){ 
+
+    Route::get('/{dil}' , 'App\Http\Controllers\AsemController@index');
+
+});
+
