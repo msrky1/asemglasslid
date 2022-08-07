@@ -47,7 +47,7 @@ Route::redirect('/' , '/tr');
 
 Route::group(['prefix' => '{language}'  ], function(){ 
 
-    Route::get('/{dil}' , 'App\Http\Controllers\AsemController@index');
+    Route::get('/' , 'App\Http\Controllers\AsemController@index');
 
 });
 

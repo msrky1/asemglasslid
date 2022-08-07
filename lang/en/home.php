@@ -11,10 +11,16 @@
 
    'hakkımızda1' => 'ASEM CAM KAPAK company was established in 2005.
    First of all, we have added production to our trade, which we started by importing from Indonesia and China.
-    We are currently producing the latest technology fully automatic glass cover. Our glass cover production continues as 2 lines.
-    Our monthly capacity is 400,000 pieces. For the steel strip around the glass cover, the latest model automatic LASER is welded without welding traces. This adds aesthetics to the glass cover. We can produce C type T type Z type and Teapot glass lids in our facility. We can produce glass covers from 8cm glass covers to 36cm numbers. Our facility has the capacity to produce according to the wishes of the customers. Having an automatic facility in our facility, it is inevitable that the sensitive glasses will have better quality hygiene. ',
+    We are currently producing the latest technology fully automatic glass cover.
+     Our glass cover production continues as 2 lines.
+    Our monthly capacity is 400,000 pieces. For the steel strip around the glass cover, 
+    the latest model automatic LASER is welded without welding traces. This adds aesthetics to 
+    the glass cover. We can produce C type T type Z type and Teapot glass lids in our facility.
+     We can produce glass covers from 8cm glass covers to 36cm numbers. Our facility has the capacity
+      to produce according to the wishes of the customers. Having an automatic facility in our facility,
+       it is inevitable that the sensitive glasses will have better quality hygiene. ',
    'hakkımızda2' => '',
-   'hakkımızda3' => 'According to our customers' 'requests.
+   'hakkımızda3' => 'According to our customers requests.
     We produce brown, blue and fload flat glass glass covers using 4 mm and 5 mm glasses. ',
    'hakkımızda4' => '',
    'hakkımızda5' => 'Our company has always adopted the policy of producing quality products and providing the best service to its customers with its experienced staff. ',
@@ -24,7 +30,7 @@
    'hakkımızda9' => 'Our products are A Quality.',
    'hakkımızda10' => '',
 
-   'hakkımızdakısa' => 'ASEM GLASS KAPAK company was established in 2005. First of all, we have added production to our trade, which we started by importing from Indonesia and China. We are currently producing the latest technology fully automatic glass cover. Our glass cover production continues as 2 lines. ',
+   'hakkımızdakısa' => 'ASEM GLASS  company was established in 2005. First of all, we have added production to our trade, which we started by importing from Indonesia and China. We are currently producing the latest technology fully automatic glass cover. Our glass cover production continues as 2 lines. ',
 
    'faaliyet' => 'TESTS FOR PRODUCT QUALITY',
    // 'activity1' => 'Ball Test',
