@@ -2,8 +2,8 @@
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>ASEM GLASSLİD</title>
-    <meta name="description" content="" />
+    <title>TURKEY GLASSLİD</title>
+    <meta name="description" content="TURKEY GLASSLİD, ASEM GLASSLİD" />
     <meta name="author" content="" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{asset('assets')}}/css/A.main.css.pagespeed.cf.AvUKjXfseS.css" />
 
     <script src="{{asset('assets')}}/js/modernizr.js pace.min.js.pagespeed.jc.25p1OtAvxP.js"></script>
+
     <script>
       eval(mod_pagespeed_BfWm8Sm_$S);
     </script>
@@ -32,6 +33,8 @@
       href="{{asset('assets')}}/favicon.png"
       type="image/x-icon"
     />
+
+
   </head>
 
 
@@ -173,7 +176,8 @@
           </div>
         </div>
       </div>
-  
+
+     
       <script src="{{asset('assets')}}/js/jquery-3.2.1.min.js"></script>
       <script src="{{asset('assets')}}/js/plugins.js"></script>
       <script src="{{asset('assets')}}/js/main.js"></script>

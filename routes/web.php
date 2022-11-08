@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use App\Http\Livewire\HomeComponent;
 use App\Http\Controllers\AsemController;
+use App\Http\Controllers\MailController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -48,6 +49,7 @@ Route::redirect('/' , '/tr');
 Route::group(['prefix' => '{language}'  ], function(){ 
 
     Route::get('/' , 'App\Http\Controllers\AsemController@index');
+    Route::post('/send' , [MailController::class , 'index']);
 
 });
 

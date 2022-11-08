@@ -7,6 +7,8 @@
     'ürünler' => 'Products',
     'iletişim' => 'CONTACT' ,
     'neleryapıyoruz' => 'QUALITY' ,
+    'adres' => 'ISMET PASHA NEIGHBORHOOD TRABZON BOULEVARD. NO:29  BİLLUR APT. FLOOR:4 NO:8' ,
+    'siparis' => 'For Orders' ,
 
 
    'hakkımızda1' => 'ASEM CAM KAPAK company was established in 2005.

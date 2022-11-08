@@ -8,6 +8,9 @@
      'ürünler' =>  'Ürünler' , 
      'iletişim' =>  'İLETİŞİM' , 
      'neleryapıyoruz' =>  'KALİTE' , 
+     'adres' => 'İSMET PAŞA MAHALLESİ  TRABZON BILV. NO:29  BİLLUR APT. KAT:4 NO:8' ,
+     'siparis' => 'SİPARİŞ İÇİN' ,
+
 
 
     'hakkımızda1' => 'ASEM  CAM KAPAK  şirketi 2005  yılında kurulmuştur.
